@@ -6212,7 +6212,7 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?DRA-(AL00|L01|L21|LX2)!'                         => [ 'Huawei', 'Enjoy 8e' ],
     ],
 
-    '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BND|CHE|CHM|COL|DUA|DUK|DLI|EDI|FRD|HN3|H30|H60|HOL|JMM|KIW|LLD|NEM|NMO|PE|PLK|RNE|SCL|KNT|CAM|STF|HDN)!!' => [
+    '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BND|CHE|CHM|COL|DUA|DUK|DLI|EDI|FRD|HN3|HRY|H30|H60|HOL|JMM|KIW|LLD|NEM|NMO|PE|PLK|RNE|SCL|KNT|CAM|STF|HDN|YAL)!!' => [
         'H30 U10'                                                       => [ 'Huawei', 'Honor 3C' ],
         '(HW-|HUAWEI )?HN3-(U00|U01)!'                                  => [ 'Huawei', 'Honor 3' ],
         '(HW-|HUAWEI |HONOR )?H30[- ](C00|L01|L02|T00|T10|U10)!'        => [ 'Huawei', 'Honor 3C' ],
@@ -6244,6 +6244,9 @@ DeviceModels::$ANDROID_MODELS = [
         '(HW-|HUAWEI )?DUK-(AL20|L09|TL30)!'                            => [ 'Huawei', 'Honor V9' ],
         '(HW-|HUAWEI )?JMM-(AL00|AL10|L22|L22HN|TL00)!'                 => [ 'Huawei', 'Honor V9 Play' ],
         '(HW-|HUAWEI )?BKL-(AL00|AL20|L04|L09)!'                        => [ 'Huawei', 'Honor V10' ],
+        '(HW-|HUAWEI )?YAL-(L21|AL00)!'                                 => [ 'Huawei', 'Honor 20 '],
+        '(HW-|HUAWEI )?HRY-AL00Ta!'                                     => [ 'Huawei', 'Honor 20i' ],
+        '(HW-|HUAWEI )?YAL-L41!'                                        => [ 'Huawei', 'Honor 20 Pro' ],
         '(HW-|HUAWEI )?HDN-(L09|W09)!'                                  => [ 'Huawei', 'Honor WaterPlay', DeviceType::TABLET ],
     ],
 
